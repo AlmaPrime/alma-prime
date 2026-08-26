@@ -83,6 +83,12 @@ export function createMap() {
     subsector:
         data.subsector,
 
+    description:
+    data.description,
+
+     image:
+        data.image,
+
     type:
         data.type,
 

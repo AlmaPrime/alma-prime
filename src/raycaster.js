@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { showSubsector, hideSubsector } from "./ui.js";
+import { showSubsectorInfo } from "./subsectorInfo.js";
 
 export function createRaycaster(camera, renderer, map) {
 
@@ -20,6 +21,97 @@ export function createRaycaster(camera, renderer, map) {
     }
 
     renderer.domElement.addEventListener("mousemove", onMouseMove);
+
+    // ============================================================
+// КЛИК ПО СУБСЕКТОРУ — ПОДРОБНАЯ ИНФОРМАЦИЯ
+// ============================================================
+
+function onClick(event) {
+
+    const rect =
+        renderer.domElement.getBoundingClientRect();
+
+    mouse.x =
+        ((event.clientX - rect.left) / rect.width) *
+        2 - 1;
+
+    mouse.y =
+        -((event.clientY - rect.top) / rect.height) *
+        2 + 1;
+
+
+    raycaster.setFromCamera(
+        mouse,
+        camera
+    );
+
+    const intersects =
+        raycaster.intersectObject(
+            map,
+            true
+        );
+
+
+    if (intersects.length === 0) {
+
+        return;
+
+    }
+
+
+    const object =
+        intersects[0].object;
+
+    let data =
+        null;
+
+
+    // ========================================================
+    // КЛИК ПО ОБЛАСТИ СУБСЕКТОРА
+    // ========================================================
+
+    if (object.name === "HitArea") {
+
+        data =
+            object.parent.userData;
+
+    }
+
+
+    // ========================================================
+    // КЛИК ПО КОНТУРУ СУБСЕКТОРА
+    // ========================================================
+
+    else if (object.name === "Border") {
+
+        data =
+            object.parent.userData;
+
+    }
+
+
+    if (!data) {
+
+        return;
+
+    }
+
+
+    // ========================================================
+    // ОТКРЫВАЕМ ПОДРОБНУЮ ИНФОРМАЦИЮ
+    // ========================================================
+
+    showSubsectorInfo(
+        data
+    );
+
+}
+
+
+renderer.domElement.addEventListener(
+    "click",
+    onClick
+);
 
     function update() {
 

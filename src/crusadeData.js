@@ -17,6 +17,10 @@ import ansarAvatar from "./assets/avatars/ansar.png"
 import alisherAvatar from "./assets/avatars/alisher.png"
 import dima_zAvatar from "./assets/avatars/dima_z.png"
 import nikita_sAvatar from "./assets/avatars/nikita_s.png"
+import kolyaAvatar from "./assets/avatars/kolya.png"
+import alexAvatar from "./assets/avatars/alex.png"
+import tamerlanAvatar from "./assets/avatars/tamerlan.png"
+import nemoAvatar from "./assets/avatars/nemo.png"
 
 
 // ============================================================
@@ -1724,6 +1728,358 @@ export const crusadePlayers = [
                 name: "Incursor Squad",
 
                 dataslate: "Incursor Squad",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            }
+
+        ]
+
+    },
+    {
+        name: "Kolya",
+
+        faction: "Tyranids",
+
+        subfaction: "Genestiller Cult",
+
+        avatar: kolyaAvatar,
+
+        rankStars: 0,
+
+        characters: [
+
+            // ------------------------------------------------
+            // Персонаж 1
+            // ------------------------------------------------
+
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    }
+
+                ]
+
+            },
+
+
+            // ------------------------------------------------
+            // Персонаж 2
+            // ------------------------------------------------
+
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            }
+
+        ]
+
+    },
+    {
+        name: "Alex",
+
+        faction: "Undecided alliance",
+
+        subfaction: "None",
+
+        avatar: alexAvatar,
+
+        rankStars: 0,
+
+        characters: [
+
+            // ------------------------------------------------
+            // Персонаж 1
+            // ------------------------------------------------
+
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    }
+
+                ]
+
+            },
+
+
+            // ------------------------------------------------
+            // Персонаж 2
+            // ------------------------------------------------
+
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            }
+
+        ]
+
+    },
+    {
+        name: "Tamerlan",
+
+        faction: "Undecided alliance",
+
+        subfaction: "None",
+
+        avatar: tamerlanAvatar,
+
+        rankStars: 0,
+
+        characters: [
+
+            // ------------------------------------------------
+            // Персонаж 1
+            // ------------------------------------------------
+
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    }
+
+                ]
+
+            },
+
+
+            // ------------------------------------------------
+            // Персонаж 2
+            // ------------------------------------------------
+
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            }
+
+        ]
+
+    },
+    {
+        name: "Nemo",
+
+        faction: "Undecided alliance",
+
+        subfaction: "None",
+
+        avatar: nemoAvatar,
+
+        rankStars: 0,
+
+        characters: [
+
+            // ------------------------------------------------
+            // Персонаж 1
+            // ------------------------------------------------
+
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    }
+
+                ]
+
+            },
+
+
+            // ------------------------------------------------
+            // Персонаж 2
+            // ------------------------------------------------
+
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
+
+                experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "-name-",
+
+                dataslate: "-name-",
 
                 experience: 0,
 
