@@ -57,15 +57,11 @@ export const crusadePlayers = [
 
         avatar: artemAvatar,
 
-        rankStars: 4,
+        rankStars: 0,
 
         achievements: [
     "first_blood",
-    "titan_slayer",
-    "no_chance",
-    "fulgrim",
-    "sangviniy",
-    "serius",
+    
 ],
 
         
@@ -159,14 +155,8 @@ export const crusadePlayers = [
         rankStars: 0,
 
         achievements: [
-    "blitzkrieg",
-    "domestic_abuse",
-    "traitor",
-    "loyal",
-    "victory",
-    "looser",
-    "tactical",
-    "anihillator",
+    ,
+    
     
 ],
 
@@ -178,9 +168,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "Ganibal Gaal",
+                name: "Gravis Watchmaster",
 
-                dataslate: "Watchmaster",
+                dataslate: "Captain in Gravis Armour",
 
                 experience: 0,
 
@@ -203,9 +193,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "Aeris",
+                name: "Crucible Dreadnought",
 
-                dataslate: "Venerable Brother-Dreadnought (crusible)",
+                dataslate: "Venerable Brother-Dreadnought (crucible)",
 
                 experience: 0,
 
@@ -226,7 +216,7 @@ export const crusadePlayers = [
             {
                 name: "Odium Squad",
 
-                dataslate: "Deathwatch Veterans Squad",
+                dataslate: "Indomitor Kill Team",
 
                 experience: 0,
 
@@ -260,8 +250,7 @@ export const crusadePlayers = [
         rankStars: 0,
 
         achievements: [
-    "chain_reaction",
-    "disgrace",
+    
     
     
 ],
@@ -495,7 +484,7 @@ export const crusadePlayers = [
 
             },
             {
-                name: "Tech-Priest Enginseer",
+                name: "Tech-Priest Engineer",
 
                 dataslate: "Tech-Priest Enginseer",
 
@@ -522,7 +511,7 @@ export const crusadePlayers = [
     {
         name: "Yura",
 
-        faction: "Marodeurs",
+        faction: "Marauders",
 
         subfaction: "Drukhari",
 
@@ -610,7 +599,7 @@ export const crusadePlayers = [
     {
         name: "Dima K",
 
-        faction: "Maradeurs",
+        faction: "Marauders",
 
         subfaction: "Tau Empire",
 
@@ -625,9 +614,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "hazard battlesuit",
+                name: "Xv9 Hazard Battlesuits",
 
-                dataslate: "hazard battlesuit",
+                dataslate: "Xv9 Hazard Battlesuits",
 
                 experience: 0,
 
@@ -784,7 +773,7 @@ export const crusadePlayers = [
     {
         name: "Timur",
 
-        faction: "Maradeurs",
+        faction: "Marauders",
 
         subfaction: "Leagues of Votann",
 
@@ -799,9 +788,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Einhyr Heartguard x5",
 
-                dataslate: "-dataslate-",
+                dataslate: "Einhyr Heartguard",
 
                 experience: 0,
 
@@ -824,9 +813,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Ironkin Steeljacks with Heavy Volkanite Desintegrators x3",
 
-                dataslate: "-dataslate-",
+                dataslate: "Ironkin Steeljacks with Heavy Volkanite Desintegrators",
 
                 experience: 0,
 
@@ -845,9 +834,9 @@ export const crusadePlayers = [
 
             },
             {
-                name: "-name-",
+                name: "Kahl",
 
-                dataslate: "-dataslate-",
+                dataslate: "Kahl",
 
                 experience: 0,
 
@@ -933,9 +922,9 @@ export const crusadePlayers = [
 
             },
             {
-                name: "Onager dunecrawler",
+                name: "Scorpius dunerider",
 
-                dataslate: "Onager dunecrawler",
+                dataslate: "Scorpius dunerider",
 
                 experience: 0,
 
@@ -1063,9 +1052,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Lord Kakophonist",
 
-                dataslate: "-dataslate-",
+                dataslate: "Lord Kakophonist",
 
                 experience: 0,
 
@@ -1088,9 +1077,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Noise Marines 6х",
 
-                dataslate: "-dataslate-",
+                dataslate: "Noise Marines",
 
                 experience: 0,
 
@@ -1109,9 +1098,9 @@ export const crusadePlayers = [
 
             },
             {
-                name: "-name-",
+                name: "Defiler",
 
-                dataslate: "-dataslate-",
+                dataslate: "Defiler",
 
                 experience: 0,
 
@@ -1239,9 +1228,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Master of Executions",
 
-                dataslate: "-dataslate-",
+                dataslate: "Master of Executions",
 
                 experience: 0,
 
@@ -1264,9 +1253,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Slaughterbound",
 
-                dataslate: "-dataslate-",
+                dataslate: "Slaughterbound",
 
                 experience: 0,
 
@@ -1285,7 +1274,7 @@ export const crusadePlayers = [
 
             },
             {
-                name: "-name-",
+                name: "Exalted Eightbound",
 
                 dataslate: "-dataslate-",
 
@@ -1576,7 +1565,7 @@ export const crusadePlayers = [
     {
         name: "Dima Z",
 
-        faction: "Maradeurs",
+        faction: "Marauders",
 
         subfaction: "Tau Empire",
 
@@ -1725,9 +1714,9 @@ export const crusadePlayers = [
 
             },
             {
-                name: "Incursor Squad",
+                name: "Assault Terminators Squad 5x" ,
 
-                dataslate: "Incursor Squad",
+                dataslate: "Assault Terminators Squad",
 
                 experience: 0,
 
@@ -1840,9 +1829,9 @@ export const crusadePlayers = [
     {
         name: "Alex",
 
-        faction: "Undecided alliance",
+        faction: "Imperium",
 
-        subfaction: "None",
+        subfaction: "Ultramarines",
 
         avatar: alexAvatar,
 
@@ -1855,9 +1844,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Captain in Gravis",
 
-                dataslate: "-name-",
+                dataslate: "Captain in Gravis Armour",
 
                 experience: 0,
 
@@ -1880,9 +1869,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Intercessors Squad 10x",
 
-                dataslate: "-name-",
+                dataslate: "Intercessors Squad",
 
                 experience: 0,
 
@@ -1901,9 +1890,9 @@ export const crusadePlayers = [
 
             },
             {
-                name: "-name-",
+                name: "Land Rider",
 
-                dataslate: "-name-",
+                dataslate: "Land Rider",
 
                 experience: 0,
 
@@ -1928,9 +1917,9 @@ export const crusadePlayers = [
     {
         name: "Tamerlan",
 
-        faction: "Undecided alliance",
+        faction: "Imperium",
 
-        subfaction: "None",
+        subfaction: "Dark Angels",
 
         avatar: tamerlanAvatar,
 
