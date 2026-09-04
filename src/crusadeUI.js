@@ -262,8 +262,8 @@ panel.appendChild(
     // ========================================================
 
     addSectionTitle(
-        "УЧАСТНИКИ"
-    );
+    `УЧАСТНИКИ (${crusadePlayers.length})`
+);
 
 
     for (

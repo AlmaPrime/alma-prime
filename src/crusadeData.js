@@ -2003,11 +2003,11 @@ export const crusadePlayers = [
 
     },
     {
-        name: "Nemo",
+        name: "Stanislav",
 
-        faction: "Undecided alliance",
+        faction: "Imperium",
 
-        subfaction: "None",
+        subfaction: "Blood Angels",
 
         avatar: nemoAvatar,
 
@@ -2020,9 +2020,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Captain with JumpPack",
 
-                dataslate: "-name-",
+                dataslate: "Captain with JumpPack",
 
                 experience: 0,
 
@@ -2045,9 +2045,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Assault Intercessor Squad 10x",
 
-                dataslate: "-name-",
+                dataslate: "Assault Intercessor Squad ",
 
                 experience: 0,
 
@@ -2066,9 +2066,9 @@ export const crusadePlayers = [
 
             },
             {
-                name: "-name-",
+                name: "Knight Destrier",
 
-                dataslate: "-name-",
+                dataslate: "Knight Destrier",
 
                 experience: 0,
 
