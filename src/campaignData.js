@@ -7,6 +7,8 @@ import ghettoImage from "./assets/subsectors/ghetto.png"
 import eliteImage from "./assets/subsectors/elite.png"
 import spaceportImage from "./assets/subsectors/spaceport.png"
 import wastelandImage from "./assets/subsectors/wasteland.png"
+import xenos_citadelImage from "./assets/subsectors/xenos_citadel.png"
+import chaos_vortexImage from "./assets/subsectors/chaos_vortex.png"
 
 
 export const campaignData = {
@@ -21,14 +23,14 @@ export const campaignData = {
         description: "Густонаселённый жилой субсектор Бостандыкского Улья. Здесь возвышаются многоуровневые жилые массивы, торговые комплексы и транспортные магистрали, соединяющие внутренние районы улья.",
         image: orbitaImage,
         type: "Жилые кварталы: \nВсе юниты контролирующего сектор игрока получают +2 к Move до конца своего хода, если в начале своей Move-фазы полностью находились в пределах  Terrain features",
-        owner: "Imperium",
+        owner: "Marauders",
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 2,
+            Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 2
         }
     },
 
@@ -52,17 +54,17 @@ export const campaignData = {
     Atakent: {
         district: "Бостандыкский Улей",
         subsector: "Атакент",
-        description: "Выставочный центр планеты. Здесь расположены павильоны в которых демонстрируется населению достижения Империума во всех сферах жизни",
-        image: transportImage,
-        type: "Выставочный комплекс: \nВ начале своей Комманд-фазы активный игрок, если он контролирует один Central Ojective, получает +1 Command Point",
-        owner: "Imperium",
+        description: "Крепость Мародёров — укреплённая цитадель, захваченная и удерживаемая временным союзом разрозненных ксеносов. Здесь бок о бок действуют существа и воины, объединённые лишь общей добычей и ненавистью к Империуму. Хрупкий союз постоянно балансирует на грани предательства, ведь каждый Мародёр мечтает однажды стать единственным хозяином крепости. ",
+        image: xenos_citadelImage,
+        type: "Крепость Марадеров: \n 1) При обороне этого субсектора контролирующий его игрок на этапе Reinforcement может расположить до трех юнитов в пределах любых objective markers в No Men's Land\n2) При обороне этого субсектора юниты контролирующего его игрока получают +2 к Charge Move, если цель в пределах objective marker\n 3) В этом субсекторе и во всех контролируемых соседних субсекторах Crusade Units получают дополнительно +1 EXP за убийство и +1 EXP за Action \n 4) Контролирующий этот субсектор Альянс получает в конце фазы Кампании (кроме первой фазы) +3 Camaing Point ",
+        owner: "Marauders",
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 2,
+            Imperium: 0,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 4
         }
     },
 
@@ -73,14 +75,14 @@ export const campaignData = {
         image: orbitaImage,
         type: "Жилые кварталы: \nВсе юниты контролирующего сектор игрока получают +2 к Move до конца своего хода, если в начале своей Мув-фазы полностью находились в пределах  Terrain features",
         
-        owner: "Imperium",
+        owner: "Marauders",
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 2,
+            Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 2
         }
     },
 
@@ -109,15 +111,15 @@ export const campaignData = {
     Tastak: {
         district: "Алмалинский Улей",
         subsector: "Тастак",
-        description: "Густонаселённый жилой субсектор Алмалинского Улья. Здесь возвышаются многоуровневые жилые массивы, торговые комплексы и транспортные магистрали, соединяющие внутренние районы улья.",
-        image: orbitaImage,
-        type: "Жилые кварталы: \nВсе юниты контролирующего сектор игрока получают +2 к Move до конца своего хода, если в начале своей Мув-фазы полностью находились в пределах  Terrain features",
-        owner: "Imperium",
+        description: "Бастион Хаоса — осквернённая крепость, ставшая опорным пунктом сил, предавших Империум. Здесь культы, ренегаты и прислужники Тёмных Богов собирают войска, оружие и припасы для новых ударов. Само присутствие Хаоса исказило это место, превратив его в источник скверны и постоянную угрозу для всего Алмагеддона.",
+        image: chaos_vortexImage,
+        type: "Бастион Хаоса: \n1) При обороне этого субсектора контролирующий его игрок на этапе Reinforcement может расположить до трех юнитов в пределах любых objective markers в No Men's Land\n2) При обороне этого субсектора юниты контролирующего его игрока получают +2 к Charge Move, если цель в пределах objective marker\n 3) В этом субсекторе и во всех контролируемых соседних субсекторах игрок за Альянс Хаоса может создать ВАРП-АНОМАЛИЮ \n 4) Контролирующий этот субсектор Альянс получает в конце фазы Кампании (кроме первой фазы) +3 Camaing Point",
+        owner: "Chaos",
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 2,
-            Chaos: 0,
+            Imperium: 0,
+            Chaos: 4,
             Tyranids: 0,
             Marauders: 0
         }
@@ -133,8 +135,8 @@ export const campaignData = {
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 3,
-            Chaos: 0,
+            Imperium: 2,
+            Chaos: 2,
             Tyranids: 0,
             Marauders: 0
         }
@@ -571,7 +573,7 @@ export const campaignData = {
         landscape: "Уберите весь террейн, кроме objective markers",
 
         power: {
-            Imperium: 1,
+            Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
             Marauders: 0
@@ -588,7 +590,7 @@ export const campaignData = {
         landscape: "Уберите весь террейн, кроме objective markers",
 
         power: {
-            Imperium: 1,
+            Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
             Marauders: 0

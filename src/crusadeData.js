@@ -32,10 +32,10 @@ import nemoAvatar from "./assets/avatars/nemo.png"
 // ============================================================
 
 export const crusadeScore = {
-    Imperium: 0,
-    Chaos: 0,
+    Imperium: 16,
+    Chaos: 7,
     Tyranids: 0,
-    Marauders: 0
+    Marauders: 15
 };
 
 // ============================================================
@@ -152,10 +152,10 @@ export const crusadePlayers = [
 
         avatar: rustemAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         achievements: [
-    ,
+    "tactical",
     
     
 ],
@@ -172,7 +172,7 @@ export const crusadePlayers = [
 
                 dataslate: "Captain in Gravis Armour",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -197,7 +197,7 @@ export const crusadePlayers = [
 
                 dataslate: "Venerable Brother-Dreadnought (crucible)",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -218,7 +218,7 @@ export const crusadePlayers = [
 
                 dataslate: "Indomitor Kill Team",
 
-                experience: 0,
+                experience: 4,
 
                 battleTraits: [
 
@@ -247,7 +247,7 @@ export const crusadePlayers = [
 
         avatar: farkhadAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         achievements: [
     
@@ -266,7 +266,7 @@ export const crusadePlayers = [
 
                 dataslate: "Wolf Priest",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -291,7 +291,7 @@ export const crusadePlayers = [
 
                 dataslate: "Wolfguard Headtakers",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -312,7 +312,7 @@ export const crusadePlayers = [
 
                 dataslate: "Wolfguard Terminators",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -429,7 +429,7 @@ export const crusadePlayers = [
 
         avatar: akbarAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         characters: [
 
@@ -442,7 +442,7 @@ export const crusadePlayers = [
 
                 dataslate: "Shadowsword (Battalion Commander)",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -467,7 +467,7 @@ export const crusadePlayers = [
 
                 dataslate: "Krieg Command Squad",
 
-                experience: 0,
+                experience: 4,
 
                 battleTraits: [
 
@@ -488,7 +488,7 @@ export const crusadePlayers = [
 
                 dataslate: "Tech-Priest Enginseer",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -517,7 +517,12 @@ export const crusadePlayers = [
 
         avatar: yuraAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
+
+        achievements: [
+    "serius",
+    
+],
 
         characters: [
 
@@ -526,11 +531,11 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Scourges with Heavy Weapons",
 
-                dataslate: "-dataslate-",
+                dataslate: "Scourges with Heavy Weapons",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -551,11 +556,11 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Scourges with Heavy Weapons",
 
-                dataslate: "-dataslate-",
+                dataslate: "Scourges with Heavy Weapons",
 
-                experience: 0,
+                experience: 1,
 
                 battleTraits: [
 
@@ -572,11 +577,11 @@ export const crusadePlayers = [
 
             },
             {
-                name: "-name-",
+                name: "Succubus",
 
-                dataslate: "-dataslate-",
+                dataslate: "Succubus",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -605,7 +610,12 @@ export const crusadePlayers = [
 
         avatar: dimaAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
+
+         achievements: [
+    "control",
+    
+],
 
         characters: [
 
@@ -618,7 +628,7 @@ export const crusadePlayers = [
 
                 dataslate: "Xv9 Hazard Battlesuits",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -643,7 +653,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kroot Lone-spear",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -664,7 +674,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kroot War Shaper",
 
-                experience: 0,
+                experience: 4,
 
                 battleTraits: [
 
@@ -693,6 +703,8 @@ export const crusadePlayers = [
 
         avatar: shurikenAvatar,
 
+        rankStars: 1,
+
         characters: [
 
             // ------------------------------------------------
@@ -704,7 +716,7 @@ export const crusadePlayers = [
 
                 dataslate: "Blade Champion",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -729,7 +741,7 @@ export const crusadePlayers = [
 
                 dataslate: "4x Custodian Guard ",
 
-                experience: 0,
+                experience: 1,
 
                 battleTraits: [
 
@@ -750,7 +762,7 @@ export const crusadePlayers = [
 
                 dataslate: "-dataslate-",
 
-                experience: 0,
+                experience: 1,
 
                 battleTraits: [
 
@@ -1219,7 +1231,12 @@ export const crusadePlayers = [
 
         avatar: stepanAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
+
+           achievements: [
+    "first_blood", "blitzkrieg", "anihillator", "no_chance", "serius", "titan_slayer", "tzinch",
+    
+],
 
         characters: [
 
@@ -1232,7 +1249,7 @@ export const crusadePlayers = [
 
                 dataslate: "Master of Executions",
 
-                experience: 0,
+                experience: 5,
 
                 battleTraits: [
 
@@ -1257,7 +1274,7 @@ export const crusadePlayers = [
 
                 dataslate: "Slaughterbound",
 
-                experience: 0,
+                experience: 5,
 
                 battleTraits: [
 
@@ -1278,7 +1295,7 @@ export const crusadePlayers = [
 
                 dataslate: "-dataslate-",
 
-                experience: 0,
+                experience: 5,
 
                 battleTraits: [
 
@@ -1307,7 +1324,7 @@ export const crusadePlayers = [
 
         avatar: zhandarbekAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         characters: [
 
@@ -1320,7 +1337,7 @@ export const crusadePlayers = [
 
                 dataslate: "Khorne Lord of Skulls",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1345,7 +1362,7 @@ export const crusadePlayers = [
 
                 dataslate: "Slaughterbound ",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1366,7 +1383,7 @@ export const crusadePlayers = [
 
                 dataslate: " Exalted Eightbound",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1483,7 +1500,7 @@ export const crusadePlayers = [
 
         avatar: alisherAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         characters: [
 
@@ -1496,7 +1513,7 @@ export const crusadePlayers = [
 
                 dataslate: "Sorcerer",
 
-                experience: 0,
+                experience: 1,
 
                 battleTraits: [
 
@@ -1521,7 +1538,7 @@ export const crusadePlayers = [
 
                 dataslate: "Rubric marines",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1542,7 +1559,7 @@ export const crusadePlayers = [
 
                 dataslate: "Defiler",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1571,7 +1588,7 @@ export const crusadePlayers = [
 
         avatar: dima_zAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         characters: [
 
@@ -1584,7 +1601,7 @@ export const crusadePlayers = [
 
                 dataslate: "Cadre Fireblade",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1609,7 +1626,7 @@ export const crusadePlayers = [
 
                 dataslate: "10x Breacher Team",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1630,7 +1647,7 @@ export const crusadePlayers = [
 
                 dataslate: "Stormsurge",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1835,7 +1852,12 @@ export const crusadePlayers = [
 
         avatar: alexAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
+
+         achievements: [
+    "anihillator",
+    
+],
 
         characters: [
 
@@ -1848,7 +1870,7 @@ export const crusadePlayers = [
 
                 dataslate: "Captain in Gravis Armour",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1873,7 +1895,7 @@ export const crusadePlayers = [
 
                 dataslate: "Intercessors Squad",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1894,7 +1916,7 @@ export const crusadePlayers = [
 
                 dataslate: "Land Rider",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1923,7 +1945,7 @@ export const crusadePlayers = [
 
         avatar: tamerlanAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         characters: [
 
@@ -1932,11 +1954,11 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Chaplain In Terminator Armour",
 
-                dataslate: "-name-",
+                dataslate: "Chaplain In Terminator Armour",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1957,11 +1979,11 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Inner Circle Companions",
 
-                dataslate: "-name-",
+                dataslate: "Inner Circle Companions",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1978,11 +2000,11 @@ export const crusadePlayers = [
 
             },
             {
-                name: "-name-",
+                name: "Intercessor Squad",
 
                 dataslate: "-name-",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 

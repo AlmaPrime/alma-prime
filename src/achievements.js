@@ -14,6 +14,8 @@ import sangviniyIcon from "./assets/achievements/sangviniy.png"
 import seriusIcon from "./assets/achievements/serius.png"
 import chain_reactionIcon from "./assets/achievements/chain_reaction.png"
 import disgraceIcon from "./assets/achievements/disgrace.png"
+import controlIcon from "./assets/achievements/control.png"
+import tzinchIcon from "./assets/achievements/tzinch.png"
 
 // ============================================================
 // СПРАВОЧНИК АЧИВОК КРУСЕЙДА
@@ -136,7 +138,7 @@ export const achievements = {
 
     serius: {
 
-        name: "ARE YOU SEIOURS?",
+        name: "ARE YOU SERIOUS?",
 
         icon: seriusIcon
 
@@ -155,6 +157,22 @@ export const achievements = {
         name: "GALAXY DISGRACE",
 
         icon: disgraceIcon
+
+    },
+
+    control: {
+
+        name: "ABSOLUT CONTROL",
+
+        icon: controlIcon
+
+    },
+
+    tzinch: {
+
+        name: "JUST AS PLANNED",
+
+        icon: tzinchIcon
 
     },
 
