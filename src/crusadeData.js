@@ -249,7 +249,7 @@ export const crusadePlayers = [
 
         rankStars: 1,
 
-        achievements: [
+        achievements: ["prospero", "first_blood", "warlord_dead",
     
     
     
@@ -1501,6 +1501,14 @@ export const crusadePlayers = [
         avatar: alisherAvatar,
 
         rankStars: 1,
+
+        achievements: ["prospero",
+    
+    
+    
+],
+
+
 
         characters: [
 

@@ -16,6 +16,9 @@ import chain_reactionIcon from "./assets/achievements/chain_reaction.png"
 import disgraceIcon from "./assets/achievements/disgrace.png"
 import controlIcon from "./assets/achievements/control.png"
 import tzinchIcon from "./assets/achievements/tzinch.png"
+import prosperoIcon from "./assets/achievements/prospero.png"
+import warlord_deadIcon from "./assets/achievements/warlord_dead.png"
+
 
 // ============================================================
 // СПРАВОЧНИК АЧИВОК КРУСЕЙДА
@@ -173,6 +176,22 @@ export const achievements = {
         name: "JUST AS PLANNED",
 
         icon: tzinchIcon
+
+    },
+
+     prospero: {
+
+        name: "PROSPERO 2.0",
+
+        icon: prosperoIcon
+
+    },
+
+      warlord_dead: {
+
+        name: "WARLORD...O SHIT!",
+
+        icon: warlord_deadIcon
 
     },
 
