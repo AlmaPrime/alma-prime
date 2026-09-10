@@ -1254,10 +1254,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "BRUTAL",
 
                         description:
-                            ""
+                            " Improve the Strength characteristic of melee weapons equipped by this model by 2."
                     }
 
                 ]
@@ -1279,10 +1279,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "PEERLESS FIGHTERS",
 
                         description:
-                            ""
+                            "Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1. If this unit made a Charge move this turn then, until the end of the turn, each time a model in this unit makes a melee attack, you can also re-roll a Wound roll of 1."
                     },
 
                     
@@ -1300,10 +1300,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "DESPERATION TO SLAY",
 
                         description:
-                            ""
+                            "Add 2 to the Move characteristic of models in this unit and you can ignore any or all modifiers to Charge rolls made for this unit."
                     },
 
                     
