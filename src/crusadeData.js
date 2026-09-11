@@ -60,7 +60,7 @@ export const crusadePlayers = [
         rankStars: 0,
 
         achievements: [
-    "first_blood",
+    
     
 ],
 

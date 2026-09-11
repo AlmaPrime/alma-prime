@@ -32,7 +32,7 @@ export const achievements = {
 
     first_blood: {
 
-        name: "FIRST BLOOD",
+        name: "FIRST BLOOD - убить юнит противника в свой первый ход",
 
         icon: firstBloodIcon
 
@@ -45,7 +45,7 @@ export const achievements = {
 
     titan_slayer: {
 
-        name: "TITAN SLAYER",
+        name: "TITAN SLAYER - уничтожить юнит с кейвордом TITANIC юнитом с кейвордом INFANTRY из одной модели",
 
         icon: titanSlayerIcon
 
@@ -53,7 +53,7 @@ export const achievements = {
 
      blitzkrieg: {
 
-        name: "BLITZKRIEG",
+        name: "BLITZKRIEG - убить все юниты противника до окончания третьего раунда и победить в битве",
 
         icon: blitzkriegIcon
 
@@ -61,7 +61,7 @@ export const achievements = {
 
     domestic_abuse: {
 
-        name: "DOMESTIC ABUSE",
+        name: "DOMESTIC ABUSE - убить моделью ROBAUT GILLIMAN модель YVRAINE либо наоборот",
 
         icon: domesticAbuseIcon
 
@@ -101,7 +101,7 @@ export const achievements = {
 
     tactical: {
 
-        name: "TACTICAL MASTER",
+        name: "TACTICAL MASTER - проиграть битву, но заработать больше Campaign point, чем оппонент",
 
         icon: tacticalIcon
 
@@ -109,7 +109,7 @@ export const achievements = {
 
      anihillator: {
 
-        name: "ANIHILLATOR",
+        name: "ANIHILLATOR - убить юнит с одной активации, нанеся суммарно более 25 damage",
 
         icon: anihillatorIcon
 
@@ -117,7 +117,7 @@ export const achievements = {
 
     no_chance: {
 
-        name: "NO CHANCE",
+        name: "NO CHANCE - уничтожить юнит, так что бы противник не мог бросить сейв-ролл",
 
         icon: nochanceIcon
 
@@ -125,7 +125,7 @@ export const achievements = {
 
     fulgrim: {
 
-        name: "DAD, I KILLED MY BROTHER",
+        name: "DAD, I KILLED MY BROTHER - убить моделью с кейвордом PRIMARСH другую модель с кейвордом PRIMARСH",
 
         icon: fulgrimIcon
 
@@ -133,7 +133,7 @@ export const achievements = {
     
     sangviniy: {
 
-        name: "SANGUINIUS CHALLENGE",
+        name: "SANGUINIUS CHALLENGE - бросить не менее семи единиц на сейв-ролле",
 
         icon: sangviniyIcon
 
@@ -141,7 +141,7 @@ export const achievements = {
 
     serius: {
 
-        name: "ARE YOU SERIOUS?",
+        name: "ARE YOU SERIOUS - убить юнит, который стоит минимум в два раза больше очков, чем юнит его уничтоживший",
 
         icon: seriusIcon
 
@@ -149,7 +149,7 @@ export const achievements = {
 
     chain_reaction: {
 
-        name: "CHAIN REACTION",
+        name: "CHAIN REACTION - уничтожить юнит со способностью Deadly Demise, взрыв которой уничтожит любой другой юнит",
 
         icon: chain_reactionIcon
 
@@ -157,7 +157,7 @@ export const achievements = {
 
     disgrace: {
 
-        name: "GALAXY DISGRACE",
+        name: "GALAXY DISGRACE - провалить Battle-shock тест всеми юнитами в одной битве",
 
         icon: disgraceIcon
 
@@ -165,7 +165,7 @@ export const achievements = {
 
     control: {
 
-        name: "ABSOLUT CONTROL",
+        name: "ABSOLUT CONTROL - удерживать один и тот же  objective-маркер в No Men Land 5 раундов ",
 
         icon: controlIcon
 
@@ -173,7 +173,7 @@ export const achievements = {
 
     tzinch: {
 
-        name: "JUST AS PLANNED",
+        name: "JUST AS PLANNED - выиграть битву, потеряв к последнему раунду все юниты",
 
         icon: tzinchIcon
 
@@ -181,7 +181,7 @@ export const achievements = {
 
      prospero: {
 
-        name: "PROSPERO 2.0",
+        name: "PROSPERO 2.0 - играя за фракцию Space Wolves сыгарть против игрока на фракции Thousand Sons или наоборот" ,
 
         icon: prosperoIcon
 
@@ -189,7 +189,7 @@ export const achievements = {
 
       warlord_dead: {
 
-        name: "WARLORD...O SHIT!",
+        name: "WARLORD...O SHIT! - убить вражескую модель WARLORD с одной активации на первом ходу",
 
         icon: warlord_deadIcon
 
