@@ -18,6 +18,7 @@ import controlIcon from "./assets/achievements/control.png"
 import tzinchIcon from "./assets/achievements/tzinch.png"
 import prosperoIcon from "./assets/achievements/prospero.png"
 import warlord_deadIcon from "./assets/achievements/warlord_dead.png"
+import protectedIcon from "./assets/achievements/protected.png"
 
 
 // ============================================================
@@ -85,7 +86,7 @@ export const achievements = {
 
     victory: {
 
-        name: "INVINCIBLE",
+        name: "INVINCIBLE - одержать три победы подряд",
 
         icon: victoryIcon
 
@@ -192,6 +193,14 @@ export const achievements = {
         name: "WARLORD...O SHIT! - убить вражескую модель WARLORD с одной активации на первом ходу",
 
         icon: warlord_deadIcon
+
+    },
+
+      protected: {
+
+        name: "EMPEROR PROTECTED - Пережить три активации вражеских атак одним юнитом подряд либо получить за одну активацию более шести mortal wounds и за все отбросить Feel no Pain 5+",
+
+        icon: protectedIcon
 
     },
 

@@ -33,9 +33,9 @@ import nemoAvatar from "./assets/avatars/nemo.png"
 
 export const crusadeScore = {
     Imperium: 16,
-    Chaos: 7,
+    Chaos: 8,
     Tyranids: 0,
-    Marauders: 15
+    Marauders: 23
 };
 
 // ============================================================
@@ -535,7 +535,7 @@ export const crusadePlayers = [
 
                 dataslate: "Scourges with Heavy Weapons",
 
-                experience: 2,
+                experience: 4,
 
                 battleTraits: [
 
@@ -560,7 +560,7 @@ export const crusadePlayers = [
 
                 dataslate: "Scourges with Heavy Weapons",
 
-                experience: 1,
+                experience: 3,
 
                 battleTraits: [
 
@@ -581,7 +581,7 @@ export const crusadePlayers = [
 
                 dataslate: "Succubus",
 
-                experience: 2,
+                experience: 4,
 
                 battleTraits: [
 
@@ -613,7 +613,7 @@ export const crusadePlayers = [
         rankStars: 1,
 
          achievements: [
-    "control",
+    "control", "victory",
     
 ],
 
@@ -628,7 +628,7 @@ export const crusadePlayers = [
 
                 dataslate: "Xv9 Hazard Battlesuits",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -653,7 +653,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kroot Lone-spear",
 
-                experience: 3,
+                experience: 5,
 
                 battleTraits: [
 
@@ -674,7 +674,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kroot War Shaper",
 
-                experience: 4,
+                experience: 6,
 
                 battleTraits: [
 
@@ -879,7 +879,7 @@ export const crusadePlayers = [
 
         avatar: nikitaAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         characters: [
 
@@ -892,7 +892,7 @@ export const crusadePlayers = [
 
                 dataslate: "Tech-priest Manipulus",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -917,7 +917,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kataphron breachers (3)",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -938,7 +938,7 @@ export const crusadePlayers = [
 
                 dataslate: "Scorpius dunerider",
 
-                experience: 0,
+                experience: 1,
 
                 battleTraits: [
 
@@ -967,7 +967,14 @@ export const crusadePlayers = [
 
         avatar: ruslanAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
+
+        achievements: [
+    "protected",
+    
+],
+
+
 
         characters: [
 
@@ -980,7 +987,7 @@ export const crusadePlayers = [
 
                 dataslate: "Sorcerer in terminator armor",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1005,7 +1012,7 @@ export const crusadePlayers = [
 
                 dataslate: "Chaos Terminator Squad",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1022,11 +1029,11 @@ export const crusadePlayers = [
 
             },
             {
-                name: "Chaos Predator Annihilator",
+                name: "Havocs",
 
-                dataslate: "Chaos Predator Annihilator",
+                dataslate: "Havocs",
 
-                experience: 0,
+                experience: 1,
 
                 battleTraits: [
 
