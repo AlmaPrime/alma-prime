@@ -658,10 +658,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "Prey Slayers",
 
                         description:
-                            ""
+                            "At the start of the battle, select one unit from your opponent’s army. Until the end of the battle, each time this KROOT unit makes an attack that targets that enemy unit, you can re-roll the Hit roll."
                     },
 
                     
@@ -679,10 +679,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "TECHNOLOGICAL TROPHIES",
 
                         description:
-                            ""
+                            "Each time this unit declares a charge, if you select a MONSTER or VEHICLE unit as a target of that charge, until the end of the turn, melee weapons equipped by models in this unit have the [LANCE] ability."
                     },
 
                     
@@ -1411,7 +1411,7 @@ export const crusadePlayers = [
 
     },
     {
-        name: "Ansar",
+        name: "Alexander",
 
         faction: "Imperium",
 
@@ -1428,9 +1428,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "10 Celestian Sacresants",
 
-                dataslate: "-dataslate-",
+                dataslate: "10 Celestian Sacresants",
 
                 experience: 0,
 
@@ -1453,9 +1453,9 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "3 Paragon Warsuits",
 
-                dataslate: "-dataslate-",
+                dataslate: "3 Paragon Warsuits",
 
                 experience: 0,
 
@@ -1474,9 +1474,9 @@ export const crusadePlayers = [
 
             },
             {
-                name: "-name-",
+                name: "Canoness",
 
-                dataslate: "-dataslate-",
+                dataslate: "Canoness",
 
                 experience: 0,
 
