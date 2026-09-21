@@ -40,14 +40,14 @@ export const campaignData = {
         description: "Густонаселённый жилой субсектор Бостандыкского Улья. Здесь возвышаются многоуровневые жилые массивы, торговые комплексы и транспортные магистрали, соединяющие внутренние районы улья.",
         image: orbitaImage,
         type: "Жилые кварталы: \nВсе юниты контролирующего сектор игрока (в первой фазе обоих игроков)  получают +2 к Move до конца своего хода, если в начале своей Move-фазы полностью находились в пределах  Terrain features",
-        owner: "Imperium",
+        owner: "Marauders",
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 1,
+            Imperium: 0,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 1
+            Marauders: 2
         }
     },
 
@@ -174,8 +174,8 @@ export const campaignData = {
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 2,
-            Chaos: 0,
+            Imperium: 1,
+            Chaos: 1,
             Tyranids: 0,
             Marauders: 0
         }
@@ -204,12 +204,12 @@ export const campaignData = {
         description: "Густонаселённый жилой субсектор Ауэзовского Улья. Здесь возвышаются многоуровневые жилые массивы, торговые комплексы и транспортные магистрали, соединяющие внутренние районы улья.",
         image: orbitaImage,
         type: "Жилые кварталы: \nВсе юниты контролирующего сектор игрока (в первой фазе обоих игроков)  получают +2 к Move до конца своего хода, если в начале своей Мув-фазы полностью находились в пределах  Terrain features",
-        owner: "Imperium",
+        owner: "Chaos",
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 2,
-            Chaos: 0,
+            Imperium: 0,
+            Chaos: 2,
             Tyranids: 0,
             Marauders: 0
         }

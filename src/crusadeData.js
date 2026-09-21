@@ -32,10 +32,10 @@ import nemoAvatar from "./assets/avatars/nemo.png"
 // ============================================================
 
 export const crusadeScore = {
-    Imperium: 16,
-    Chaos: 8,
+    Imperium: 18,
+    Chaos: 20,
     Tyranids: 0,
-    Marauders: 23
+    Marauders: 24
 };
 
 // ============================================================
@@ -442,7 +442,7 @@ export const crusadePlayers = [
 
                 dataslate: "Shadowsword (Battalion Commander)",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -467,7 +467,7 @@ export const crusadePlayers = [
 
                 dataslate: "Krieg Command Squad",
 
-                experience: 4,
+                experience: 5,
 
                 battleTraits: [
 
@@ -488,7 +488,7 @@ export const crusadePlayers = [
 
                 dataslate: "Tech-Priest Enginseer",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -716,7 +716,7 @@ export const crusadePlayers = [
 
                 dataslate: "Blade Champion",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -741,7 +741,7 @@ export const crusadePlayers = [
 
                 dataslate: "4x Custodian Guard ",
 
-                experience: 1,
+                experience: 2,
 
                 battleTraits: [
 
@@ -762,7 +762,7 @@ export const crusadePlayers = [
 
                 dataslate: "-dataslate-",
 
-                experience: 1,
+                experience: 2,
 
                 battleTraits: [
 
@@ -892,7 +892,7 @@ export const crusadePlayers = [
 
                 dataslate: "Tech-priest Manipulus",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -917,7 +917,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kataphron breachers (3)",
 
-                experience: 2,
+                experience: 4,
 
                 battleTraits: [
 
@@ -938,7 +938,7 @@ export const crusadePlayers = [
 
                 dataslate: "Scorpius dunerider",
 
-                experience: 1,
+                experience: 2,
 
                 battleTraits: [
 
@@ -970,7 +970,7 @@ export const crusadePlayers = [
         rankStars: 1,
 
         achievements: [
-    "protected",
+    "protected", "blitzkrieg",
     
 ],
 
@@ -987,7 +987,7 @@ export const crusadePlayers = [
 
                 dataslate: "Sorcerer in terminator armor",
 
-                experience: 2,
+                experience: 5,
 
                 battleTraits: [
 
@@ -1012,7 +1012,7 @@ export const crusadePlayers = [
 
                 dataslate: "Chaos Terminator Squad",
 
-                experience: 2,
+                experience: 5,
 
                 battleTraits: [
 
@@ -1033,7 +1033,7 @@ export const crusadePlayers = [
 
                 dataslate: "Havocs",
 
-                experience: 1,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1241,7 +1241,7 @@ export const crusadePlayers = [
         rankStars: 1,
 
            achievements: [
-    "first_blood", "blitzkrieg", "anihillator", "no_chance", "serius", "titan_slayer", "tzinch",
+    "first_blood", "blitzkrieg", "anihillator", "no_chance", "serius", "titan_slayer", "tzinch", "victory"
     
 ],
 
@@ -1256,7 +1256,7 @@ export const crusadePlayers = [
 
                 dataslate: "Master of Executions",
 
-                experience: 5,
+                experience: 9,
 
                 battleTraits: [
 
@@ -1281,7 +1281,7 @@ export const crusadePlayers = [
 
                 dataslate: "Slaughterbound",
 
-                experience: 5,
+                experience: 10,
 
                 battleTraits: [
 
@@ -1290,6 +1290,13 @@ export const crusadePlayers = [
 
                         description:
                             "Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1. If this unit made a Charge move this turn then, until the end of the turn, each time a model in this unit makes a melee attack, you can also re-roll a Wound roll of 1."
+                    },
+
+                     {
+                        name: "New Battletrait",
+
+                        description:
+                            "None"
                     },
 
                     
@@ -1302,7 +1309,7 @@ export const crusadePlayers = [
 
                 dataslate: "-dataslate-",
 
-                experience: 5,
+                experience: 10,
 
                 battleTraits: [
 
@@ -1311,6 +1318,13 @@ export const crusadePlayers = [
 
                         description:
                             "Add 2 to the Move characteristic of models in this unit and you can ignore any or all modifiers to Charge rolls made for this unit."
+                    },
+
+                    {
+                        name: "New Battletrait",
+
+                        description:
+                            "None"
                     },
 
                     
@@ -1419,7 +1433,15 @@ export const crusadePlayers = [
 
         avatar: ansarAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
+
+        achievements: [
+    "tactical",
+    
+    
+],
+
+
 
         characters: [
 
@@ -1432,7 +1454,7 @@ export const crusadePlayers = [
 
                 dataslate: "10 Celestian Sacresants",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1457,7 +1479,7 @@ export const crusadePlayers = [
 
                 dataslate: "3 Paragon Warsuits",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1478,7 +1500,7 @@ export const crusadePlayers = [
 
                 dataslate: "Canoness",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1616,7 +1638,7 @@ export const crusadePlayers = [
 
                 dataslate: "Cadre Fireblade",
 
-                experience: 3,
+                experience: 4,
 
                 battleTraits: [
 
@@ -1641,7 +1663,7 @@ export const crusadePlayers = [
 
                 dataslate: "10x Breacher Team",
 
-                experience: 3,
+                experience: 4,
 
                 battleTraits: [
 
@@ -1662,15 +1684,15 @@ export const crusadePlayers = [
 
                 dataslate: "Stormsurge",
 
-                experience: 3,
+                experience: 5,
 
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "Armour Piercing: Cluster Rocket System",
 
                         description:
-                            ""
+                            "Weapon Modification: +1 AP"
                     },
 
                     
