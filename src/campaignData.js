@@ -136,9 +136,9 @@ export const campaignData = {
 
         power: {
             Imperium: 2,
-            Chaos: 1,
+            Chaos: 0,
             Tyranids: 0,
-            Marauders: 1
+            Marauders: 2
         }
     },
 

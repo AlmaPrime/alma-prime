@@ -21,6 +21,7 @@ import kolyaAvatar from "./assets/avatars/kolya.png"
 import alexAvatar from "./assets/avatars/alex.png"
 import tamerlanAvatar from "./assets/avatars/tamerlan.png"
 import nemoAvatar from "./assets/avatars/nemo.png"
+import arsenyAvatar from "./assets/avatars/arseny.png"
 
 
 // ============================================================
@@ -33,9 +34,9 @@ import nemoAvatar from "./assets/avatars/nemo.png"
 
 export const crusadeScore = {
     Imperium: 18,
-    Chaos: 20,
+    Chaos: 21,
     Tyranids: 0,
-    Marauders: 24
+    Marauders: 28
 };
 
 // ============================================================
@@ -472,10 +473,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "OLD GRUDGES",
 
                         description:
-                            ""
+                            "At the start of the battle, select one unit from your opponent’s army. Each time a model in this OFFICER’s unit makes an attack that targets that unit, you can re-roll the Hit roll."
                     },
 
                     
@@ -493,7 +494,7 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "Enter Battletrait",
 
                         description:
                             ""
@@ -716,7 +717,7 @@ export const crusadePlayers = [
 
                 dataslate: "Blade Champion",
 
-                experience: 3,
+                experience: 4,
 
                 battleTraits: [
 
@@ -741,7 +742,7 @@ export const crusadePlayers = [
 
                 dataslate: "4x Custodian Guard ",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -791,7 +792,7 @@ export const crusadePlayers = [
 
         avatar: timurAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         characters: [
 
@@ -804,7 +805,7 @@ export const crusadePlayers = [
 
                 dataslate: "Einhyr Heartguard",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -829,7 +830,7 @@ export const crusadePlayers = [
 
                 dataslate: "Ironkin Steeljacks with Heavy Volkanite Desintegrators",
 
-                experience: 0,
+                experience: 1,
 
                 battleTraits: [
 
@@ -850,7 +851,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kahl",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1293,10 +1294,10 @@ export const crusadePlayers = [
                     },
 
                      {
-                        name: "New Battletrait",
+                        name: "DESPERATION TO SLAY",
 
                         description:
-                            "None"
+                            "Add 2 to the Move characteristic of models in this unit and you can ignore any or all modifiers to Charge rolls made for this unit."
                     },
 
                     
@@ -1321,10 +1322,10 @@ export const crusadePlayers = [
                     },
 
                     {
-                        name: "New Battletrait",
+                        name: "MINDLESS ONSLAUGHT",
 
                         description:
-                            "None"
+                            "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
                     },
 
                     
@@ -2130,6 +2131,94 @@ export const crusadePlayers = [
                 dataslate: "Knight Destrier",
 
                 experience: 0,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            }
+
+        ]
+
+    },
+    {
+        name: "Arseny",
+
+        faction: "Chaos",
+
+        subfaction: "Orks",
+
+        avatar: arsenyAvatar,
+
+        rankStars: 1,
+
+        characters: [
+
+            // ------------------------------------------------
+            // Персонаж 1
+            // ------------------------------------------------
+
+            {
+                name: "Deffkilla Wartrike",
+
+                dataslate: "Deffkilla Wartrike",
+
+                experience: 2,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    }
+
+                ]
+
+            },
+
+
+            // ------------------------------------------------
+            // Персонаж 2
+            // ------------------------------------------------
+
+            {
+                name: "Warbuggies",
+
+                dataslate: "Warbuggies",
+
+                experience: 1,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "Flash Gitz",
+
+                dataslate: "Flash Gitz",
+
+                experience: 1,
 
                 battleTraits: [
 
