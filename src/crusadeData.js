@@ -34,7 +34,7 @@ import arsenyAvatar from "./assets/avatars/arseny.png"
 
 export const crusadeScore = {
     Imperium: 18,
-    Chaos: 21,
+    Chaos: 25,
     Tyranids: 0,
     Marauders: 28
 };
@@ -58,10 +58,10 @@ export const crusadePlayers = [
 
         avatar: artemAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
 
         achievements: [
-    
+    "blitzkrieg"
     
 ],
 
@@ -82,7 +82,7 @@ export const crusadePlayers = [
 
                 dataslate: "CRUCIBLE",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
                     {
@@ -103,7 +103,7 @@ export const crusadePlayers = [
 
                 dataslate: "Deathshroud Terminators",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
                     {
@@ -131,7 +131,7 @@ export const crusadePlayers = [
 
                 dataslate: "Defiler",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
                     {
@@ -173,7 +173,7 @@ export const crusadePlayers = [
 
                 dataslate: "Captain in Gravis Armour",
 
-                experience: 3,
+                experience: 4,
 
                 battleTraits: [
 
@@ -198,7 +198,7 @@ export const crusadePlayers = [
 
                 dataslate: "Venerable Brother-Dreadnought (crucible)",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -219,15 +219,15 @@ export const crusadePlayers = [
 
                 dataslate: "Indomitor Kill Team",
 
-                experience: 4,
+                experience: 6,
 
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "MARKSMAN’S HONOURS",
 
                         description:
-                            ""
+                            "Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1."
                     },
 
                     
@@ -431,6 +431,14 @@ export const crusadePlayers = [
         avatar: akbarAvatar,
 
         rankStars: 1,
+
+        achievements: [
+    "looser",
+    
+    
+],
+
+
 
         characters: [
 
@@ -706,6 +714,12 @@ export const crusadePlayers = [
 
         rankStars: 1,
 
+        achievements: [
+    "looser",
+    
+    
+],
+
         characters: [
 
             // ------------------------------------------------
@@ -717,7 +731,7 @@ export const crusadePlayers = [
 
                 dataslate: "Blade Champion",
 
-                experience: 4,
+                experience: 5,
 
                 battleTraits: [
 
@@ -742,7 +756,7 @@ export const crusadePlayers = [
 
                 dataslate: "4x Custodian Guard ",
 
-                experience: 3,
+                experience: 4,
 
                 battleTraits: [
 
@@ -763,7 +777,7 @@ export const crusadePlayers = [
 
                 dataslate: "-dataslate-",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1239,7 +1253,7 @@ export const crusadePlayers = [
 
         avatar: stepanAvatar,
 
-        rankStars: 1,
+        rankStars: 2,
 
            achievements: [
     "first_blood", "blitzkrieg", "anihillator", "no_chance", "serius", "titan_slayer", "tzinch", "victory"
@@ -1257,7 +1271,7 @@ export const crusadePlayers = [
 
                 dataslate: "Master of Executions",
 
-                experience: 9,
+                experience: 11,
 
                 battleTraits: [
 
@@ -1282,7 +1296,7 @@ export const crusadePlayers = [
 
                 dataslate: "Slaughterbound",
 
-                experience: 10,
+                experience: 13,
 
                 battleTraits: [
 
@@ -1310,7 +1324,7 @@ export const crusadePlayers = [
 
                 dataslate: "-dataslate-",
 
-                experience: 10,
+                experience: 13,
 
                 battleTraits: [
 

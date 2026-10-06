@@ -21,6 +21,7 @@ import warlord_deadIcon from "./assets/achievements/warlord_dead.png"
 import protectedIcon from "./assets/achievements/protected.png"
 
 
+
 // ============================================================
 // СПРАВОЧНИК АЧИВОК КРУСЕЙДА
 // ============================================================
@@ -94,7 +95,7 @@ export const achievements = {
 
     looser: {
 
-        name: "MAIN IS FUN",
+        name: "MAIN IS FUN - потерпеть три поражения подряд",
 
         icon: looserIcon
 
