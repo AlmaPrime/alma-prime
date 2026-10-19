@@ -36,7 +36,7 @@ export const crusadeScore = {
     Imperium: 18,
     Chaos: 25,
     Tyranids: 0,
-    Marauders: 28
+    Marauders: 34
 };
 
 // ============================================================
@@ -637,15 +637,15 @@ export const crusadePlayers = [
 
                 dataslate: "Xv9 Hazard Battlesuits",
 
-                experience: 3,
+                experience: 6,
 
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "ELECTROCHAFF BACKUPS",
 
                         description:
-                            ""
+                            "Each time a ranged attack targets this unit, unless the attacking model is within 18, subtract 1 from the Hit roll. "
                     }
 
                 ]
@@ -662,7 +662,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kroot Lone-spear",
 
-                experience: 5,
+                experience: 6,
 
                 battleTraits: [
 
@@ -679,19 +679,40 @@ export const crusadePlayers = [
 
             },
             {
-                name: "Kroot War Shaper",
+                name: "R'warna Battlesuit",
 
-                dataslate: "Kroot War Shaper",
+                dataslate: "R'warna Battlesuit",
 
-                experience: 6,
+                experience: 4,
 
                 battleTraits: [
 
                     {
-                        name: "TECHNOLOGICAL TROPHIES",
+                        name: "none",
 
                         description:
-                            "Each time this unit declares a charge, if you select a MONSTER or VEHICLE unit as a target of that charge, until the end of the turn, melee weapons equipped by models in this unit have the [LANCE] ability."
+                            "none"
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "Y'vahra Battlesuit",
+
+                dataslate: "Y'vahra Battlesuit",
+
+                experience: 1,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            "None"
                     },
 
                     
@@ -1451,7 +1472,7 @@ export const crusadePlayers = [
         rankStars: 1,
 
         achievements: [
-    "tactical",
+    "tactical", "protected"
     
     
 ],
@@ -1469,7 +1490,7 @@ export const crusadePlayers = [
 
                 dataslate: "10 Celestian Sacresants",
 
-                experience: 2,
+                experience: 4,
 
                 battleTraits: [
 
@@ -1494,7 +1515,7 @@ export const crusadePlayers = [
 
                 dataslate: "3 Paragon Warsuits",
 
-                experience: 2,
+                experience: 4,
 
                 battleTraits: [
 
@@ -1515,6 +1536,27 @@ export const crusadePlayers = [
 
                 dataslate: "Canoness",
 
+                experience: 4,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "Hospitallier",
+
+                dataslate: "Canoness",
+
                 experience: 2,
 
                 battleTraits: [
@@ -1531,6 +1573,9 @@ export const crusadePlayers = [
                 ]
 
             }
+            
+
+            
 
         ]
 
@@ -1653,15 +1698,15 @@ export const crusadePlayers = [
 
                 dataslate: "Cadre Fireblade",
 
-                experience: 4,
+                experience: 7,
 
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "ARMOUR PIERCING: fireblade pulse rifle ",
 
                         description:
-                            ""
+                            "+1 AP"
                     }
 
                 ]
@@ -1678,15 +1723,15 @@ export const crusadePlayers = [
 
                 dataslate: "10x Breacher Team",
 
-                experience: 4,
+                experience: 7,
 
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "QUICK SHOTS",
 
                         description:
-                            ""
+                            "Once per battle round, you can target this unit with the fireoverwatch stratagem for 0 CP"
                     },
 
                     
@@ -1699,7 +1744,7 @@ export const crusadePlayers = [
 
                 dataslate: "Stormsurge",
 
-                experience: 5,
+                experience: 8,
 
                 battleTraits: [
 
@@ -1708,6 +1753,27 @@ export const crusadePlayers = [
 
                         description:
                             "Weapon Modification: +1 AP"
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "Commander in Coldstar Battlesuit",
+
+                dataslate: "Commander in Coldstar Battlesuit",
+
+                experience: 1,
+
+                battleTraits: [
+
+                    {
+                        name: "",
+
+                        description:
+                            ""
                     },
 
                     
@@ -2186,15 +2252,15 @@ export const crusadePlayers = [
 
                 dataslate: "Deffkilla Wartrike",
 
-                experience: 2,
+                experience: 5,
 
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "HIGH-SPEED DAKKA",
 
                         description:
-                            ""
+                            "Each time a model in this unit makes a ranged attack, add 1 to the Hit roll."
                     }
 
                 ]
@@ -2211,7 +2277,7 @@ export const crusadePlayers = [
 
                 dataslate: "Warbuggies",
 
-                experience: 1,
+                experience: 3,
 
                 battleTraits: [
 
@@ -2232,7 +2298,29 @@ export const crusadePlayers = [
 
                 dataslate: "Flash Gitz",
 
-                experience: 1,
+                experience: 3,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            },
+
+            {
+                name: "Dakkarig",
+
+                dataslate: "Dakkarig",
+
+                experience: 2,
 
                 battleTraits: [
 

@@ -82,7 +82,7 @@ export const campaignData = {
             Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 2
+            Marauders: 3
         }
     },
 
@@ -298,10 +298,10 @@ export const campaignData = {
         landscape: "Нет особенностей",
 
         power: {
-            Imperium: 3,
+            Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 1
         }
     },
 
