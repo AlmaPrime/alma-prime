@@ -33,10 +33,10 @@ import arsenyAvatar from "./assets/avatars/arseny.png"
 // ============================================================
 
 export const crusadeScore = {
-    Imperium: 18,
-    Chaos: 25,
-    Tyranids: 0,
-    Marauders: 34
+    Imperium: 19,
+    Chaos: 30,
+    Tyranids: 2,
+    Marauders: 39
 };
 
 // ============================================================
@@ -156,7 +156,7 @@ export const crusadePlayers = [
         rankStars: 1,
 
         achievements: [
-    "tactical",
+    "tactical", "first_blood"
     
     
 ],
@@ -619,7 +619,7 @@ export const crusadePlayers = [
 
         avatar: dimaAvatar,
 
-        rankStars: 1,
+        rankStars: 2,
 
          achievements: [
     "control", "victory",
@@ -637,7 +637,7 @@ export const crusadePlayers = [
 
                 dataslate: "Xv9 Hazard Battlesuits",
 
-                experience: 6,
+                experience: 8,
 
                 battleTraits: [
 
@@ -662,7 +662,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kroot Lone-spear",
 
-                experience: 6,
+                experience: 9,
 
                 battleTraits: [
 
@@ -683,15 +683,15 @@ export const crusadePlayers = [
 
                 dataslate: "R'warna Battlesuit",
 
-                experience: 4,
+                experience: 7,
 
                 battleTraits: [
 
                     {
-                        name: "none",
+                        name: "LEAPING FLAME",
 
                         description:
-                            "none"
+                            "Each time this unit Advances, until the start of your next Movement phase, this unit has the Stealth ability."
                     },
 
                     
@@ -704,7 +704,7 @@ export const crusadePlayers = [
 
                 dataslate: "Y'vahra Battlesuit",
 
-                experience: 1,
+                experience: 4,
 
                 battleTraits: [
 
@@ -1292,7 +1292,7 @@ export const crusadePlayers = [
 
                 dataslate: "Master of Executions",
 
-                experience: 11,
+                experience: 16,
 
                 battleTraits: [
 
@@ -1301,6 +1301,13 @@ export const crusadePlayers = [
 
                         description:
                             " Improve the Strength characteristic of melee weapons equipped by this model by 2."
+                    },
+
+                    {
+                        name: "BESTIAL LIMBS",
+
+                        description:
+                            "Add 1 to advance and charge-roll made for this model's unit"
                     }
 
                 ]
@@ -1317,7 +1324,7 @@ export const crusadePlayers = [
 
                 dataslate: "Slaughterbound",
 
-                experience: 13,
+                experience: 18,
 
                 battleTraits: [
 
@@ -1345,7 +1352,7 @@ export const crusadePlayers = [
 
                 dataslate: "-dataslate-",
 
-                experience: 13,
+                experience: 18,
 
                 battleTraits: [
 
@@ -1367,7 +1374,32 @@ export const crusadePlayers = [
 
                 ]
 
+            },
+            {
+                name: "Daemon Prince of Khorne with Wings",
+
+                dataslate: "Daemon Prince of Khorne with Wings",
+
+                experience: 5,
+
+                battleTraits: [
+
+                    {
+                        name: "PEERLESS FIGHTERS",
+
+                        description:
+                            "Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1. If this unit made a Charge move this turn then, until the end of the turn, each time a model in this unit makes a melee attack, you can also re-roll a Wound roll of 1."
+                    },
+
+                    
+
+                    
+
+                ]
+
             }
+
+            
 
         ]
 
@@ -1490,7 +1522,7 @@ export const crusadePlayers = [
 
                 dataslate: "10 Celestian Sacresants",
 
-                experience: 4,
+                experience: 6,
 
                 battleTraits: [
 
@@ -1515,7 +1547,7 @@ export const crusadePlayers = [
 
                 dataslate: "3 Paragon Warsuits",
 
-                experience: 4,
+                experience: 6,
 
                 battleTraits: [
 
@@ -1536,7 +1568,7 @@ export const crusadePlayers = [
 
                 dataslate: "Canoness",
 
-                experience: 4,
+                experience: 6,
 
                 battleTraits: [
 
@@ -1557,7 +1589,7 @@ export const crusadePlayers = [
 
                 dataslate: "Canoness",
 
-                experience: 2,
+                experience: 4,
 
                 battleTraits: [
 
@@ -1685,7 +1717,13 @@ export const crusadePlayers = [
 
         avatar: dima_zAvatar,
 
-        rankStars: 1,
+        rankStars: 2,
+
+        achievements: ["first_blood",
+    
+    
+    
+],
 
         characters: [
 
@@ -1698,7 +1736,7 @@ export const crusadePlayers = [
 
                 dataslate: "Cadre Fireblade",
 
-                experience: 7,
+                experience: 9,
 
                 battleTraits: [
 
@@ -1723,7 +1761,7 @@ export const crusadePlayers = [
 
                 dataslate: "10x Breacher Team",
 
-                experience: 7,
+                experience: 9,
 
                 battleTraits: [
 
@@ -1744,7 +1782,7 @@ export const crusadePlayers = [
 
                 dataslate: "Stormsurge",
 
-                experience: 8,
+                experience: 10,
 
                 battleTraits: [
 
@@ -1753,6 +1791,13 @@ export const crusadePlayers = [
 
                         description:
                             "Weapon Modification: +1 AP"
+                    },
+
+                    {
+                        name: "Pulse blast cannon",
+
+                        description:
+                            "Weapon Modification: Add 1 to this weapon’s Attacks characteristic"
                     },
 
                     
@@ -1765,7 +1810,7 @@ export const crusadePlayers = [
 
                 dataslate: "Commander in Coldstar Battlesuit",
 
-                experience: 1,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1882,7 +1927,15 @@ export const crusadePlayers = [
 
         avatar: kolyaAvatar,
 
-        rankStars: 0,
+        rankStars: 1,
+
+        achievements: [
+    "tactical", 
+    
+    
+],
+
+        
 
         characters: [
 
@@ -1891,11 +1944,11 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Goliath Rockgrinder",
 
-                dataslate: "-name-",
+                dataslate: "Goliath Truck",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -1916,9 +1969,30 @@ export const crusadePlayers = [
             // ------------------------------------------------
 
             {
-                name: "-name-",
+                name: "Kelermorph",
 
-                dataslate: "-name-",
+                dataslate: "Kelermorph",
+
+                experience: 2,
+
+                battleTraits: [
+
+                    {
+                        name: "None",
+
+                        description:
+                            ""
+                    },
+
+                    
+
+                ]
+
+            },
+            {
+                name: "Neophyte Hybrids",
+
+                dataslate: "Neophyte Hybrids",
 
                 experience: 0,
 
@@ -1936,12 +2010,13 @@ export const crusadePlayers = [
                 ]
 
             },
+
             {
-                name: "-name-",
+                name: "Magos",
 
-                dataslate: "-name-",
+                dataslate: "Magos",
 
-                experience: 0,
+                experience: 3,
 
                 battleTraits: [
 
@@ -2076,7 +2151,7 @@ export const crusadePlayers = [
 
                 dataslate: "Chaplain In Terminator Armour",
 
-                experience: 3,
+                experience: 4,
 
                 battleTraits: [
 
@@ -2101,7 +2176,7 @@ export const crusadePlayers = [
 
                 dataslate: "Inner Circle Companions",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -2122,7 +2197,7 @@ export const crusadePlayers = [
 
                 dataslate: "-name-",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
