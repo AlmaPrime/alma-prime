@@ -1504,7 +1504,7 @@ export const crusadePlayers = [
         rankStars: 1,
 
         achievements: [
-    "tactical", "protected"
+    "tactical", "protected", "control",
     
     
 ],
@@ -1527,10 +1527,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "ZEALOUS DEVOTION",
 
                         description:
-                            ""
+                            "Each time this unit makes a Charge move, until the end of the turn, improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1."
                     }
 
                 ]
@@ -1552,10 +1552,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "ZEALOUS DEVOTION",
 
                         description:
-                            ""
+                            "Each time this unit makes a Charge move, until the end of the turn, improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1."
                     },
 
                     
@@ -1573,10 +1573,10 @@ export const crusadePlayers = [
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "AEGIS OF BELIEF",
 
                         description:
-                            ""
+                            "This model has the Feel No Pain 5+ ability and, at the start of your Command phase, this model regains 1 lost wound."
                     },
 
                     
