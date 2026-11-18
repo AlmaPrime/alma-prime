@@ -42,6 +42,11 @@ const FACTION_ACCENTS = {
     Marauders: {
         color: "#29b6f6",
         glow: "rgba(41,182,246,0.40)"
+    },
+
+    Renegades: {
+        color: "#ff8c00",
+        glow: "rgba(255,140,0,0.40)"
     }
 
 };
@@ -530,6 +535,16 @@ landscapeField.style.whiteSpace =
             data.power.Marauders,
             FACTION_ACCENTS.Marauders.color
         );
+
+        addPowerRow(
+            "Ренегаты",
+            data.power.Renegades,
+            FACTION_ACCENTS.Renegades.color
+            
+    );
+    
+    
+
 
     }
 

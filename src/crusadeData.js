@@ -34,9 +34,10 @@ import arsenyAvatar from "./assets/avatars/arseny.png"
 
 export const crusadeScore = {
     Imperium: 19,
-    Chaos: 30,
+    Chaos: 33,
     Tyranids: 2,
-    Marauders: 39
+    Marauders: 39,
+    Renegades: 0
 };
 
 // ============================================================
@@ -1268,7 +1269,7 @@ export const crusadePlayers = [
     {
         name: "Stepan",
 
-        faction: "Chaos",
+        faction: "Renegades",
 
         subfaction: "Worlds Eaters",
 
@@ -1277,7 +1278,7 @@ export const crusadePlayers = [
         rankStars: 2,
 
            achievements: [
-    "first_blood", "blitzkrieg", "anihillator", "no_chance", "serius", "titan_slayer", "tzinch", "victory"
+    "first_blood", "blitzkrieg", "anihillator", "no_chance", "serius", "titan_slayer", "tzinch", "victory", "control", "traitor",
     
 ],
 
@@ -1292,7 +1293,7 @@ export const crusadePlayers = [
 
                 dataslate: "Master of Executions",
 
-                experience: 16,
+                experience: 19,
 
                 battleTraits: [
 
@@ -1324,7 +1325,7 @@ export const crusadePlayers = [
 
                 dataslate: "Slaughterbound",
 
-                experience: 18,
+                experience: 21,
 
                 battleTraits: [
 
@@ -1342,6 +1343,13 @@ export const crusadePlayers = [
                             "Add 2 to the Move characteristic of models in this unit and you can ignore any or all modifiers to Charge rolls made for this unit."
                     },
 
+                    {
+                        name: "SLAYERS OF CHAMPIONS",
+
+                        description:
+                            "Add 1 to Advance and Charge rolls made for this model’s unit"
+                    },
+
                     
 
                 ]
@@ -1352,7 +1360,7 @@ export const crusadePlayers = [
 
                 dataslate: "-dataslate-",
 
-                experience: 18,
+                experience: 21,
 
                 battleTraits: [
 
@@ -1370,6 +1378,13 @@ export const crusadePlayers = [
                             "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
                     },
 
+                    {
+                        name: "SLAYERS OF CHAMPIONS",
+
+                        description:
+                            "Melee weapons equipped by models in this unit have the [precision] ability."
+                    },
+
                     
 
                 ]
@@ -1380,7 +1395,7 @@ export const crusadePlayers = [
 
                 dataslate: "Daemon Prince of Khorne with Wings",
 
-                experience: 5,
+                experience: 8,
 
                 battleTraits: [
 
@@ -1948,7 +1963,7 @@ export const crusadePlayers = [
 
                 dataslate: "Goliath Truck",
 
-                experience: 2,
+                experience: 3,
 
                 battleTraits: [
 
@@ -1973,7 +1988,7 @@ export const crusadePlayers = [
 
                 dataslate: "Kelermorph",
 
-                experience: 2,
+                experience: 4,
 
                 battleTraits: [
 
@@ -1994,7 +2009,7 @@ export const crusadePlayers = [
 
                 dataslate: "Neophyte Hybrids",
 
-                experience: 0,
+                experience: 2,
 
                 battleTraits: [
 
@@ -2016,15 +2031,15 @@ export const crusadePlayers = [
 
                 dataslate: "Magos",
 
-                experience: 3,
+                experience: 5,
 
                 battleTraits: [
 
                     {
-                        name: "None",
+                        name: "SYNAPTIC IMPETUS",
 
                         description:
-                            ""
+                            "Each time this model makes an attack, add 1 to the Hit roll if this model is leading a unit of 5 or more models, and add 1 to the Wound roll as well if this model is leading a unit of 10 or more models."
                     },
 
                     

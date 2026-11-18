@@ -71,7 +71,7 @@ export const achievements = {
 
     traitor: {
 
-        name: "TRAITOR WITHIN",
+        name: "TRAITOR WITHIN - предать Альянс",
 
         icon: traitorIcon
 

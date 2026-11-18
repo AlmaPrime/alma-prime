@@ -45,8 +45,10 @@ export const FACTION_COLORS = {
 
     // Мародеры — голубой
 
-    Marauders: 0x29b6f6
+    Marauders: 0x29b6f6,
 
+     // Ренегаты — оранжевый
+    Renegades: 0xff8c00
 };
 
 
@@ -76,19 +78,30 @@ export function createFill(
     // ОПРЕДЕЛЯЕМ ЦВЕТ
     // ========================================================
 
-    const color =
-        FACTION_COLORS[owner];
+    const factionKey =
+    typeof owner === "string"
+        ? owner.trim()
+        : owner;
 
+const color =
+    FACTION_COLORS[factionKey];
 
-    if (color === undefined) {
+console.log(
+    "ПРОВЕРКА ФРАКЦИИ:",
+    JSON.stringify(owner),
+    "КЛЮЧИ:",
+    Object.keys(FACTION_COLORS)
+);
 
-        console.warn(
-            `Неизвестная фракция: ${owner}`
-        );
+if (color === undefined) {
 
-        return null;
+    console.warn(
+        `Неизвестная фракция: ${JSON.stringify(owner)}`
+    );
 
-    }
+    return null;
+
+}
 
 
     // ========================================================

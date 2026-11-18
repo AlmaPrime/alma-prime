@@ -36,6 +36,12 @@ import tyranidsImage from "./assets/factions/tyranids.png";
 
 import maraudersImage from "./assets/factions/marauders.png";
 
+// ============================================================
+// РЕНЕГАТЫ
+// ============================================================
+
+import renegadesImage from "./assets/factions/renegades.png";
+
 
 // ============================================================
 // ДАННЫЕ ФРАКЦИЙ
@@ -91,6 +97,18 @@ export const factions = {
         name: "Мародеры",
 
         icon: maraudersImage
+
+    },
+
+    // --------------------------------------------------------
+    // Ренегаты
+    // --------------------------------------------------------
+
+    Renegades: {
+
+        name: "Ренегаты",
+
+        icon: renegadesImage
 
     }
 

@@ -188,6 +188,12 @@ export function createCrusadeUI() {
         "#29b6f6"
     );
 
+    addScoreRow(
+    scoreContainer,
+    "Ренегаты",
+    crusadeScore.Renegades,
+    "#ff8c00"
+);
 
     panel.appendChild(
         scoreContainer

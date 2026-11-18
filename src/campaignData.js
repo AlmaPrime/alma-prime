@@ -30,7 +30,8 @@ export const campaignData = {
             Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 2
+            Marauders: 2,
+            Renegades: 0
         }
     },
 
@@ -47,7 +48,8 @@ export const campaignData = {
             Imperium: 0,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 3
+            Marauders: 3,
+            Renegades: 0
         }
     },
 
@@ -64,7 +66,8 @@ export const campaignData = {
             Imperium: 0,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 4
+            Marauders: 4,
+            Renegades: 0
         }
     },
 
@@ -82,7 +85,8 @@ export const campaignData = {
             Imperium: 1,
             Chaos: 1,
             Tyranids: 0,
-            Marauders: 2
+            Marauders: 2,
+            Renegades: 0
         }
     },
 
@@ -104,7 +108,8 @@ export const campaignData = {
             Imperium: 4,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -121,7 +126,8 @@ export const campaignData = {
             Imperium: 0,
             Chaos: 4,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -138,7 +144,8 @@ export const campaignData = {
             Imperium: 0,
             Chaos: 2,
             Tyranids: 0,
-            Marauders: 2
+            Marauders: 2,
+            Renegades: 0
         }
     },
 
@@ -155,7 +162,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -175,9 +183,10 @@ export const campaignData = {
 
         power: {
             Imperium: 2,
-            Chaos: 1,
+            Chaos: 2,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -194,7 +203,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -211,7 +221,8 @@ export const campaignData = {
             Imperium: 0,
             Chaos: 2,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -228,7 +239,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -250,7 +262,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -267,7 +280,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -284,7 +298,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -301,7 +316,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 1
+            Marauders: 1,
+            Renegades: 0
         }
     },
 
@@ -323,7 +339,8 @@ export const campaignData = {
             Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -340,7 +357,8 @@ export const campaignData = {
             Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -357,7 +375,8 @@ export const campaignData = {
             Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -374,7 +393,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -396,7 +416,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -413,7 +434,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -430,7 +452,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -447,7 +470,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -469,7 +493,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -486,7 +511,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -503,7 +529,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -520,7 +547,8 @@ export const campaignData = {
             Imperium: 3,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -542,7 +570,8 @@ export const campaignData = {
             Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -559,7 +588,8 @@ export const campaignData = {
             Imperium: 1,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -576,7 +606,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     },
 
@@ -593,7 +624,8 @@ export const campaignData = {
             Imperium: 2,
             Chaos: 0,
             Tyranids: 0,
-            Marauders: 0
+            Marauders: 0,
+            Renegades: 0
         }
     }
 
